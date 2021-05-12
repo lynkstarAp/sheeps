@@ -1,0 +1,23 @@
+{
+  "name": "sheep-bee",
+  "version": "1.0.0",
+  "description": "Connection test with google sheets",
+  "main": "index.js",
+  "scripts": {
+  	"serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lynkstar",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15",
+    "googleapis": "^73.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
